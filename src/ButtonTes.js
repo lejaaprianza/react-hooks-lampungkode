@@ -1,7 +1,7 @@
 import { ThemeContext, themes } from "./ThemeContex"
 import Toolbar from "./Toolbar"
 
-function Tes() {
+function ButtonTest() {
   return (
     <ThemeContext.Provider value={themes.dark}>
       <Toolbar />
@@ -9,4 +9,4 @@ function Tes() {
   )
 }
 
-export default Tes
+export default ButtonTest
