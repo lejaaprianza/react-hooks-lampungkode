@@ -1,6 +1,6 @@
 import ThemedButton from "./ThemeButton"
 
-function Toolbar(props) {
+function Toolbar() {
   return (
     <div>
       <ThemedButton />
