@@ -1,5 +1,4 @@
-import { ThemeContext } from "./ThemeContex"
-import themes from "./themes"
+import { ThemeContext, themes } from "./ThemeContex"
 import Toolbar from "./Toolbar"
 
 function Tes() {
