@@ -1,12 +1,11 @@
-import { ThemeContext } from "./ThemeContex"
 import { themes } from "./themes"
-
-import Toolbar from "./Toolbar"
+import { ThemeContext } from "./ThemeContex"
+import ThemedButton from "./ThemeButton"
 
 function ButtonTest() {
   return (
     <ThemeContext.Provider value={themes.dark}>
-      <Toolbar />
+      <ThemedButton />
     </ThemeContext.Provider>
   )
 }

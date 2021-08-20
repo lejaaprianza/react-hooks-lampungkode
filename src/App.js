@@ -1,15 +1,15 @@
 import React from "react"
 import "./App.css"
 import ButtonTest from "./ButtonTest"
+import ThemedButton from "./ThemeButton"
 
 function App() {
   return (
     <div className="App">
       <ButtonTest />
+      <ThemedButton />
     </div>
   )
 }
 
 export default App
-
-//themecontext.js -> ThemeButton useContext -> ButtonTest.provider & theme
