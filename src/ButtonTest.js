@@ -1,6 +1,6 @@
+import { ThemeContext } from "./ThemeContext"
 import { themes } from "./themes"
-import { ThemeContext } from "./ThemeContex"
-import ThemedButton from "./ThemeButton"
+import ThemedButton from "./ThemedButton"
 
 function ButtonTest() {
   return (

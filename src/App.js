@@ -1,7 +1,7 @@
 import React from "react"
 import "./App.css"
 import ButtonTest from "./ButtonTest"
-import ThemedButton from "./ThemeButton"
+import ThemedButton from "./ThemedButton"
 
 function App() {
   return (

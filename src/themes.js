@@ -1,7 +1,7 @@
 export const themes = {
   light: {
     foreground: "#000000",
-    background: "#eeeeee",
+    background: "yellow",
   },
   dark: {
     foreground: "#ffffff",
